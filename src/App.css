@@ -1,0 +1,64 @@
+#root {
+  max-width: 680px;
+  margin: 0 auto;
+}
+body {
+  font-size: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+#formContainer {
+  padding: 10px 20px;
+  box-shadow: -4px -3px 30px -10px rgba(0, 0, 0, 0.35);
+}
+
+#personalForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formInputBox {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+  font-size: 16px;
+  transition: 200ms;
+}
+.formInputBox:hover {
+  scale: 1.02;
+}
+
+label {
+  font-weight: 500;
+}
+
+.formInputBox:focus {
+  outline: none;
+}
+
+.emailNotification {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+}
+p {
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+#submitBtn {
+  margin: 20px 0 10px 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: blueviolet;
+  color: whitesmoke;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 200ms;
+}
+#submitBtn:hover {
+  scale: 1.02;
+}
